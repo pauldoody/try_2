@@ -3,6 +3,8 @@ import './App.css';
 import Fetcher from './Fetcher';
 import Hooks from './Hooks';
 
+import SectionOne from './SectionOne'
+
 import Skeleton from '@material-ui/lab/Skeleton';
 
 function App() {
@@ -10,7 +12,7 @@ function App() {
     <div className="App">
       <Hooks  />
 	  
-	  
+	  <SectionOne />
 	  
     </div>
   );
